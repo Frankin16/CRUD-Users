@@ -1,0 +1,35 @@
+.userCard__container {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-style: solid;
+  border: 2px;
+  border-color: rgba(154, 149, 149, 0.2);
+  
+  
+}
+
+.userSection-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.userSection__btn {
+  background-color: rgb(14, 45, 84);
+  color: aliceblue;
+  border-radius: 0.6em;
+  cursor: pointer;
+  width: 150px;
+  font-size: 1.1em;
+  transition: transform 200ms ease;
+}
+
+.userSection__btn:hover {
+  filter: brightness(1.2);
+  transform: scale(1.05)
+}

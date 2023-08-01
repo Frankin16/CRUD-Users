@@ -1,0 +1,80 @@
+.userCard {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: rgba(211, 206, 206, 0.2);
+    color: black;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 0.8em;
+    box-shadow: 1px 1px 10px;
+    overflow: hidden;
+    transition: transform 200ms ease;
+}
+
+.userCard:hover {
+    transform: scale(1.05)
+}
+
+.userCard__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.serCard__line {
+    border-color: black;
+    background-color: black;
+}
+
+.userCard__list {
+  
+    padding-left: 1.5em;
+    margin-top: 1.2em;
+}
+
+.userCard__item{ 
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.userCard__item-title {
+    color: grey;
+    font-size: 1.1em;
+}
+
+.userCard__footer {
+    display: flex;
+    justify-content: end;
+}
+
+.userCard-btn__container {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+
+.userCard__btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 0.4rem;
+    background-color: rgba(148, 145, 145, 0.2);
+    transition: transform 200ms ease;
+}
+.userCard__btn:hover {
+    filter: brightness(1.2);
+    transform: scale(1.05)
+}
+
+#trash {
+    margin-right: 1em;
+    background-color: red;
+    color: aliceblue;
+}
+
